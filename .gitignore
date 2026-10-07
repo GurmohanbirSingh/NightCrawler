@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+.env
+*.log
+sample_reports/*.pdf
+sample_reports/*.json
+sample_reports/*.html
+*.exe
+*.out
+.DS_Store
+.vscode/
+.idea/
